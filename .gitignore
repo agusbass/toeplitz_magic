@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Test / coverage / benchmark artifacts
+.pytest_cache/
+.benchmarks/
+.coverage
+htmlcov/
+hasil uji/
+
+# Build artifacts
+*.zip
+*.whl
+*.tar.gz
+
+# Secrets — never commit
+.env
+*.key
+secrets.*
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
